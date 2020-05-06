@@ -2,8 +2,22 @@
   background-size: cover;
   background-position: right center;
   border-radius: 4px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
   .advantage-page-item__title {
     padding: 20px 40px 40px 20px;
     font-size: 16px;
-    line-height: 1.2; }
+    line-height: 1.2;
+    color: #fff;
+    z-index: 10;
+    position: relative;
+    font-weight: bold; }
+  .advantage-page-item__overlay {
+    background: #1b262c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 4px;
+    opacity: .3;
+    z-index: 0; }
