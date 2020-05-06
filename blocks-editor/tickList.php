@@ -6,7 +6,7 @@ $text = get_field('text')
 ?>
 
 <div class="tick-list">
-   <div class="tick-list__icon"><img src="<?php echo $icon?>" alt="" width="60px"></div>
+   <div class="tick-list__icon"><img src="<?php echo $icon?>" alt="" width="64px"></div>
    <div class="tick-list__content">
       <div class="tick-list__title">
          <?php echo $title?>
