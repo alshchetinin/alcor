@@ -282,10 +282,12 @@
 
 // переменные
 $logo = get_sub_field('logo');		
+$title = get_sub_field('title_bank')
 ?>
             <div class="col-lg-2">
                <div class="bank-logo">
                   <img src="<?php echo $logo?>" alt="" class="img-responsive">
+                  <h5><?php echo $title?></h5>
                </div>
 
             </div>
